@@ -96,11 +96,17 @@ html {
 }
 
 body {
+    min-height: 100dvh;
     color: var(--GRAY-950);
     font-family: "Figtree";
     background-color: var(--YELLOW);
     display: grid;
     place-content: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 /* ===== BLOG CARD ===== */

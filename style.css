@@ -38,43 +38,86 @@ body {
     --SPACING-50: 4px;
 }
 
-.text_preset_1{
+.text_preset_1 {
     font-family: "Figtree";
     font-size: 24px;
     line-height: var(--LINE-HEIGHT);
     letter-spacing: var(--LETTER-SPACING);
-    font-weight: bold;
+    font-weight: 800;
 }
 
-.text_preset_2{
+.text_preset_1_mp {
+    font-family: "Figtree";
+    font-size: 20px;
+    line-height: var(--LINE-HEIGHT);
+    letter-spacing: var(--LETTER-SPACING);
+    font-weight: 800;
+}
+
+.text_preset_2 {
     font-family: "Figtree";
     font-size: 16px;
     line-height: var(--LINE-HEIGHT);
     letter-spacing: var(--LETTER-SPACING);
-    font-weight: bold;
+    font-weight: 500;
 }
 
-.text_preset_3{
+.text_preset_3 {
     font-family: "Figtree";
     font-size: 14px;
     line-height: var(--LINE-HEIGHT);
     letter-spacing: var(--LETTER-SPACING);
-    font-weight: bold;
+    font-weight: 500;
 }
 
-.text_preset_3_bold{
+.text_preset_3_c500 {
+    font-family: "Figtree";
+    font-size: 14px;
+    color: var(--GRAY-500);
+    line-height: var(--LINE-HEIGHT);
+    letter-spacing: var(--LETTER-SPACING);
+    font-weight: 500;
+}
+
+.text_preset_3_bold {
     font-family: "Figtree";
     font-size: 14px;
     line-height: var(--LINE-HEIGHT);
     letter-spacing: var(--LETTER-SPACING);
-    font-weight: bold;
+    font-weight: 800;
+}
+
+#heading_element:hover{
+    cursor: pointer;
+    color: var(--YELLOW);
+}
+
+.shadow_bg{
+    border: 1px solid var(--GRAY-950);
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px black;
+    background-color: var(--WHITE);
 }
 
 body {
     position: relative;
     color: var(--GRAY-950);
     font-family: "Figtree";
+    background-color: var(--YELLOW);
+    display: grid;
+    place-content: center;
 }
+
+/* ===== BLOG CARD ===== */
+
+.blog_card{
+    padding: 24px;
+    display: flex;
+    gap: 24px;
+    flex-flow: column;
+}
+
+
 
 /* ===== FOOTER ===== */
 

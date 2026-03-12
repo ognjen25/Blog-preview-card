@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Blog preview card</title>
-</head>
-<body>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Ognjen</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body>
+
+    <!-- COMPONENT -->
+    <div id="component" class="shadow_bg blog_card">
+      <!-- IMAGE -->
+      <img src="assets/images/illustration-article.svg" alt="illustration"
+        loading="lazy">
+      <!-- TEXT PART -->
+      <div id="text" class="text">
+        <!-- LEARNING -->
+        <div class="learning">
+          <p>Learning</p>
+        </div>
+        <!-- text -->
+        <p>Published 21 Dec 2023</p>
+        <h3 id="heading_element" class="text_preset_1_mp">HTML & CSS foundations</h3>
+        <p class="text_preset_3_c500">These languages are the backbone of every website, defining
+          structure, content, and presentation.</p>
+      </div>
+      <!-- AVATAR -->
+      <div id="avatar" class="avatar">
+        <img src="assets/images/image-avatar.webp" alt="avatar_img"
+          loading="lazy">
+        <p class="text_preset_3_bold">Greg Hooper</p>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Ognjen</a>.
+    </div>
+  </body>
 </html>

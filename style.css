@@ -42,14 +42,6 @@ html {
     font-weight: 800;
 }
 
-.text_preset_1_mp {
-    font-family: "Figtree";
-    font-size: 20px;
-    line-height: var(--LINE-HEIGHT);
-    letter-spacing: var(--LETTER-SPACING);
-    font-weight: 800;
-}
-
 .text_preset_2 {
     font-family: "Figtree";
     font-size: 16px;
@@ -115,17 +107,31 @@ img {
     .blog_card {
         width: 280px;
     }
+
+    #heading_element{
+        font-size: 19px;
+    }
 }
 
 @media (min-width: 375px) {
     .blog_card {
         max-width: 327px;
     }
+    #heading_element{
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 1024px) {
     .blog_card {
         max-width: 384px;
+    }
+    #heading_element{
+        font-size: 24px;
+    }
+
+    .text_preset_3_c500{
+        font-size: 16px;
     }
 }
 
@@ -135,7 +141,9 @@ img {
     padding: 24px;
     display: flex;
     gap: 24px;
-    flex-flow: column;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .blog_card > img{
@@ -153,6 +161,23 @@ img {
     background-color: var(--YELLOW);
     text-align: center;
     padding: 4px 12px;
+}
+
+.avatar{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+#avatar img{
+    width: 32px;
+}
+
+#avatar p{
+    width: 85px;
+    text-align: center;
 }
 
 /* ===== FOOTER ===== */
